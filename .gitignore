@@ -1,0 +1,33 @@
+# 编译中间文件
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.out
+
+# CUDA 特有文件
+*.ptx
+*.cubin
+*.fatbin.c
+*.i
+*.gpu
+*.cu.cache
+
+# IDE 或构建工具生成的文件
+*.user
+*.suo
+*.sln
+*.vcxproj*
+.vs/
+.vscode/
+build/
+Debug/
+Release/
+
+# 其他常见临时文件
+*.log
+*.tmp
+*~
